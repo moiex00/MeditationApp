@@ -21,8 +21,8 @@ An Android application that integrates with the VU NIT3213 API to authenticate u
 - **Dashboard Endpoint:** GET /dashboard/{keypass}
 
 ## Login Credentials
-- **Username:** sYourStudentID
-- **Password:** YourFirstName YourLastName
+- **Username:** s8092899
+- **Password:** Abdul Moeez
 
 ## Tech Stack
 - Kotlin
