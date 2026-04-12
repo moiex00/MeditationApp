@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">MeditationApp</string>
+
+    <!-- Login Screen -->
+    <string name="find_your_center">Find Your Center</string>
+    <string name="sign_in_subtitle">Sign in to continue your journey</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="begin_journey">Begin Journey</string>
+
+    <!-- Home Screen -->
+    <string name="good_morning">Good morning, Seeker</string>
+    <string name="focus_question">What would you like to focus on today?</string>
+    <string name="search_hint">Search meditations, music...</string>
+    <string name="chip_sleep">Sleep</string>
+    <string name="chip_anxiety">Anxiety</string>
+    <string name="chip_beginners">Beginners</string>
+    <string name="recommended">Recommended for you</string>
+    <string name="daily_calm">Daily Calm</string>
+    <string name="daily_calm_sub">Mindfulness • 10 min</string>
+    <string name="deep_sleep">Deep Sleep Release</string>
+    <string name="deep_sleep_sub">Sleep Story • 35 min</string>
+    <string name="breathe">Breathe into Relaxation</string>
+    <string name="breathe_sub">Breathing • 5 min</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="user_name">Seeker</string>
+    <string name="user_email">seeker@peace.com</string>
+    <string name="day_streak_value">12</string>
+    <string name="day_streak_label">Day Streak</string>
+    <string name="minutes_value">840</string>
+    <string name="minutes_label">Minutes</string>
+    <string name="sessions_value">45</string>
+    <string name="sessions_label">Sessions</string>
+    <string name="preferences_header">PREFERENCES</string>
+    <string name="notifications_label">Notifications</string>
+    <string name="theme_label">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="account_header">ACCOUNT</string>
+    <string name="subscription_label">Subscription</string>
+    <string name="subscription_value">Calm Plus ›</string>
+    <string name="privacy_label">Privacy &amp; Security</string>
+    <string name="privacy_arrow">›</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_meditate">Meditate</string>
+    <string name="nav_sleep">Sleep</string>
+    <string name="nav_music">Music</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_lotus">Lotus icon</string>
+    <string name="cd_avatar">User avatar</string>
+    <string name="cd_bell">Notifications</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_play">Play</string>
+    <string name="cd_streak">Streak</string>
+    <string name="cd_theme">Theme</string>
+    <string name="cd_subscription">Subscription</string>
+    <string name="cd_privacy">Privacy</string>
+
+</resources>
