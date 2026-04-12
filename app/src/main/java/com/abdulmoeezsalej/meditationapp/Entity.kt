@@ -1,8 +1,10 @@
 package com.abdulmoeezsalej.meditationapp
 
 data class Entity(
-    val property1: String = "",
-    val property2: String = "",
+    val artworkTitle: String = "",
+    val artist: String = "",
+    val medium: String = "",
+    val year: Int = 0,
     val description: String = ""
 )
 
