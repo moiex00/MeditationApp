@@ -23,12 +23,14 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         val keypass = intent.getStringExtra("keypass") ?: ""
+        val username = intent.getStringExtra("username") ?: ""
+        val password = intent.getStringExtra("password") ?: ""
+
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         val progressBar = findViewById<ProgressBar>(R.id.progressBar)
 
         // Setup RecyclerView
         adapter = EntityAdapter(emptyList()) { entity ->
-            // Navigate to details screen
             val intent = Intent(this, DetailsActivity::class.java)
             intent.putExtra("artworkTitle", entity.artworkTitle)
             intent.putExtra("artist", entity.artist)
@@ -61,7 +63,10 @@ class HomeActivity : AppCompatActivity() {
         // Navigation
         val navSettings = findViewById<LinearLayout>(R.id.navSettings)
         navSettings.setOnClickListener {
-            val intent = Intent(this, DetailsActivity::class.java)
+            val intent = Intent(this, SettingsActivity::class.java)
+            intent.putExtra("username", username)
+            intent.putExtra("password", password)
+            intent.putExtra("keypass", keypass)
             startActivity(intent)
         }
     }

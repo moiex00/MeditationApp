@@ -2,10 +2,8 @@ package com.abdulmoeezsalej.meditationapp
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -27,9 +25,10 @@ class MainActivity : AppCompatActivity() {
         // Observe login result
         viewModel.loginResult.observe(this) { result ->
             result.onSuccess { keypass ->
-                // Navigate to HomeActivity with keypass
                 val intent = Intent(this, HomeActivity::class.java)
                 intent.putExtra("keypass", keypass)
+                intent.putExtra("username", emailField.text.toString().trim())
+                intent.putExtra("password", passwordField.text.toString().trim())
                 startActivity(intent)
             }
             result.onFailure {
